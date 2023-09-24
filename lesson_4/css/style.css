@@ -1,0 +1,59 @@
+@import url("reset.css");
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	color: orange;
+}
+
+span.text {
+	color: rgb(228, 9, 181);
+}
+
+p {
+	color: rgb(48, 105, 43);
+}
+
+.link-header {
+	color: rgb(235, 129, 129);
+}
+
+[class*="-header"] {
+	color: aqua;
+}
+
+#concert {
+	color: violet;
+}
+
+#facts+p {
+	color: blue;
+}
+
+h3~a {
+	color: red;
+}
+
+a {
+	color: blue;
+}
+
+.link-footer-ul a {
+	color: rgb(145, 13, 233);
+}
+
+.item,
+.past,
+.now {
+	color: brown;
+}
+
+.album * {
+	color: rgb(235, 235, 15);
+}
+
+mark a {
+	color: rgb(12, 26, 219);
+}
