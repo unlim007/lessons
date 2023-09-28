@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Labrada:100italic,300italic,600italic&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Martian+Mono:regular,600&display=swap");
+@import url("reset.css");
 
 @font-face {
 	font-family: "calibri";
+	font-display: swap;
 	src: url(../fonts/calibri/calibri-bold-italic.woff2),
 		url(../fonts/calibri/calibri-bold-italic.woff);
 	src: url(../fonts/calibri/calibri-regular.woff2),
@@ -11,13 +13,12 @@
 
 @font-face {
 	font-family: "nt_valentino";
+	font-display: swap;
 	src: url(../fonts/nt_valentino/NT_VALENTINO.woff2),
 		url(../fonts/nt_valentino/NT_VALENTINO.woff);
 	src: url(../fonts/nt_valentino/NT_VALENTINO_Italic.woff2 Italic.woff2),
 		url(../fonts/nt_valentino/NT_VALENTINO_Italic.woff);
 }
-
-@import url("reset.css");
 
 h4 {
 	font-family: "calibri";
