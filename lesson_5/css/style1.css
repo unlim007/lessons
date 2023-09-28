@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500&display=swap");
+@import url("reset.css");
+
+.lesson-5-1 h1 {
+	font-family: "Poppins";
+	font-size: 30px;
+	text-transform: capitalize;
+	font-weight: 600;
+	line-height: 1.27;
+	color: #37393F;
+}
+
+.lesson-5-1 p {
+	font-family: "Inter";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.46;
+	color: #7D7D7D;
+}
+
+.lesson-5-1 h2 {
+	font-family: "Poppins";
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.27;
+	color: #6B77E5;
+}
+
+.lesson-5-2 h2 {
+	font-family: "Poppins";
+	font-size: 40px;
+	text-transform: capitalize;
+	color: #37393F;
+	font-weight: 700;
+	line-height: 1.27;
+}
+
+.lesson-5-2 p {
+	font-family: "Inter";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.46;
+	color: #7D7D7D;
+}
+
+.lesson-5-2 ul,
+ol {
+	font-family: "Inter";
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.46;
+	color: #7D7D7D;
+}
+
+.footer-dz1 {
+	text-shadow: 5px 3px 10px rgba(202, 61, 18, 0.726);
+	text-decoration: underline;
+	font-family: "Poppins";
+	font-size: 33px;
+	color: rgba(57, 9, 231, 0.788);
+}
