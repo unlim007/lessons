@@ -5,8 +5,17 @@
 @font-face {
 	font-family: "calibri";
 	font-display: swap;
+	font-weight: normal;
+	font-style: normal;
 	src: url(../fonts/calibri/calibri-bold-italic.woff2),
 		url(../fonts/calibri/calibri-bold-italic.woff);
+}
+
+@font-face {
+	font-family: "calibri";
+	font-display: swap;
+	font-weight: normal;
+	font-style: normal;
 	src: url(../fonts/calibri/calibri-regular.woff2),
 		url(../fonts/calibri/calibri-regular.woff);
 }
@@ -14,8 +23,17 @@
 @font-face {
 	font-family: "nt_valentino";
 	font-display: swap;
+	font-weight: normal;
+	font-style: normal;
 	src: url(../fonts/nt_valentino/NT_VALENTINO.woff2),
 		url(../fonts/nt_valentino/NT_VALENTINO.woff);
+}
+
+@font-face {
+	font-family: "nt_valentino";
+	font-display: swap;
+	font-weight: normal;
+	font-style: normal;
 	src: url(../fonts/nt_valentino/NT_VALENTINO_Italic.woff2),
 		url(../fonts/nt_valentino/NT_VALENTINO_Italic.woff);
 }
@@ -38,8 +56,7 @@ h4 {
 }
 
 .header p {
-	font-family: "Martian+Mono";
-	font-weight: 400;
+	font-family: "Martian Mono";
 	text-indent: 18px;
 	color: rgb(37, 97, 153);
 	word-spacing: 2px;
@@ -74,7 +91,6 @@ h2 {
 .main~p {
 	font-family: "calibri";
 	font-style: italic;
-	font-weight: 400;
 	text-align: justify;
 	color: rgba(112, 101, 87, 0.733);
 	line-height: 1.18;
@@ -99,7 +115,6 @@ h3 {
 .footer-start {
 	font-family: "nt_valentino";
 	font-style: italic;
-	font-weight: 400;
 	color: blue;
 }
 
