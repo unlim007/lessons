@@ -38,6 +38,10 @@
 		url(../fonts/nt_valentino/NT_VALENTINO_Italic.woff);
 }
 
+body {
+	font-family: "Labrada";
+}
+
 h4 {
 	font-family: "calibri";
 	font-size: 18px;
