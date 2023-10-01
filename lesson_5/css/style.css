@@ -118,13 +118,14 @@ h3 {
 
 .footer-start {
 	font-family: "nt_valentino";
-	font-style: italic;
+	font-style: normal;
 	color: blue;
 }
 
 .next-page {
 	font-family: "nt_valentino";
-	font-weight: 700;
+	font-weight: 500;
+	font-style: italic;
 	font-size: 30px;
 	color: blueviolet;
 	text-transform: capitalize;
