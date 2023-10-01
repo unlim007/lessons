@@ -5,10 +5,10 @@
 @font-face {
 	font-family: "calibri";
 	font-display: swap;
-	font-weight: normal;
-	font-style: normal;
-	src: url(../fonts/calibri/calibri-bold-italic.woff2),
-		url(../fonts/calibri/calibri-bold-italic.woff);
+	font-weight: bold;
+	font-style: italic;
+	src: url(../fonts/calibri/Calibri-BoldItalic.woff2) format("woff2"),
+		url(../fonts/calibri/Calibri-BoldItalic.woff) format("woff");
 }
 
 @font-face {
@@ -16,8 +16,8 @@
 	font-display: swap;
 	font-weight: normal;
 	font-style: normal;
-	src: url(../fonts/calibri/calibri-regular.woff2),
-		url(../fonts/calibri/calibri-regular.woff);
+	src: url(../fonts/calibri/Calibri.woff2) format("woff2"),
+		url(../fonts/calibri/Calibri.woff) format("woff");
 }
 
 @font-face {
@@ -25,17 +25,17 @@
 	font-display: swap;
 	font-weight: normal;
 	font-style: normal;
-	src: url(../fonts/nt_valentino/NT_VALENTINO.woff2),
-		url(../fonts/nt_valentino/NT_VALENTINO.woff);
+	src: url(../fonts/nt_valentino/NT_VALENTINO.woff2) format("woff2"),
+		url(../fonts/nt_valentino/NT_VALENTINO.woff) format("woff");
 }
 
 @font-face {
 	font-family: "nt_valentino";
 	font-display: swap;
 	font-weight: normal;
-	font-style: normal;
-	src: url(../fonts/nt_valentino/NT_VALENTINO_Italic.woff2),
-		url(../fonts/nt_valentino/NT_VALENTINO_Italic.woff);
+	font-style: italic;
+	src: url(../fonts/nt_valentino/NT_VALENTINO_Italic.woff2) format("woff2"),
+		url(../fonts/nt_valentino/NT_VALENTINO_Italic.woff) format("woff");
 }
 
 body {
@@ -94,7 +94,7 @@ h2 {
 
 .main~p {
 	font-family: "calibri";
-	font-style: italic;
+	font-style: normal;
 	text-align: justify;
 	color: rgba(112, 101, 87, 0.733);
 	line-height: 1.18;
