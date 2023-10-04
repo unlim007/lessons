@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Text:regular&display=swap");
+@import url("reset.css");
+
+header {
+	color: #6B77E5;
+	text-align: center;
+	font-family: "Inter";
+	font-weight: 600;
+	font-style: oblique;
+	font-size: 24px;
+}
+
+.task-1 {
+	font-family: "Inter";
+	font-size: 18px;
+	color: #7D7D7D;
+	width: 900px;
+	margin: 0 auto 100px;
+}
+
+.image-meeting {
+	margin-bottom: 37px;
+	padding-top: 30px;
+}
+
+h1 {
+	font-family: "Poppins";
+	font-size: 30px;
+	font-weight: 600;
+	text-transform: capitalize;
+	color: #37393F;
+	line-height: 1.27;
+	margin-bottom: 3px;
+}
+
+.meeting-text-1 {
+	line-height: 1.46;
+	margin-bottom: 42px;
+}
+
+.subtitle-meeting {
+	color: #6B77E5;
+	font-family: "Poppins";
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 12px;
+}
+
+.meeting-text-2 {
+	line-height: 1.46;
+	margin-bottom: 40px;
+}
+
+.vertical-align {
+	font-size: 0;
+}
+
+
+h2.vertical-align-item {
+	color: #37393F;
+	font-family: "Poppins";
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 15px;
+}
+
+.vertical-align-item {
+	margin-left: 29px;
+	font-size: 18px;
+	width: 350px;
+	display: inline-block;
+}
+
+h3.vertical-align-item {
+	color: #40DDB6;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 21px;
+}
+
+li {
+	margin-bottom: 30px;
+}
+
+.task-2 {
+	width: 1300px;
+	margin: 0 auto 100px;
+	font-size: 0;
+}
+
+.text-2 {
+	width: 600px;
+	color: #474747;
+	font-size: 20px;
+	font-family: "Inter";
+	font-weight: 400;
+	line-height: 1.8;
+	display: inline-block;
+}
+
+.title-text {
+	color: #D06B00;
+	font-size: 28px;
+	text-transform: uppercase;
+	margin: 25px 0 13px 0;
+
+}
+
+.subtitle-text {
+	color: #0E333D;
+	font-family: "DM Serif Text";
+	font-size: 59px;
+	line-height: 1.46;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+
+.image-2 {
+	display: inline;
+	vertical-align: top;
+}
+
+.girl {
+	margin: 0 22px 0 38px;
+}
+
+.task-3-experement {
+	font-family: "Poppins";
+	font-size: 20px;
+	text-align: justify;
+	color: #D06B00;
+}
+
+.some-1 {
+	margin: 0 auto 30px;
+	max-height: 100px;
+	min-width: 400px;
+	overflow: auto;
+}
+
+.some-2 {
+	background-color: #11e43f;
+	padding: 50px;
+	margin: 60px;
+}
+
+.some-3 {
+	margin: -200px auto;
+	color: blueviolet;
+	padding: 30px;
+}
+
+h2.task-3 {
+	color: #6B77E5;
+	font-family: "Inter";
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 30px;
+	font-style: oblique;
+	text-decoration: underline;
+	text-shadow: -31px -35px 6px #474747, 25px 28px 5px rgba(190, 70, 120, 0.753);
+}
