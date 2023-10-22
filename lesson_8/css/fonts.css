@@ -23,7 +23,7 @@
 @font-face {
 	font-family: "Causten";
 	src: url("../fonts/Causten-Light.woff2") format("woff2"),
-		src: url("../fonts/Causten-Light.woff") format("woff");
+		url("../fonts/Causten-Light.woff") format("woff");
 	font-style: normal;
 	font-display: swap;
 	font-weight: 300;
@@ -32,7 +32,7 @@
 @font-face {
 	font-family: "Causten";
 	src: url("../fonts/Causten-Semi-Bold.woff2") format("woff2"),
-		src: url("../fonts/Causten-Semi-Bold.woff") format("woff");
+		url("../fonts/Causten-Semi-Bold.woff") format("woff");
 	font-style: normal;
 	font-display: swap;
 	font-weight: 600;
