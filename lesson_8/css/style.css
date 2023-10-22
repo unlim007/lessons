@@ -1,0 +1,509 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+
+main {
+	padding: 20px;
+}
+
+.header-conteiner {
+	padding: 30px;
+	font-family: "Inter", sans-serif;
+	background: url("../img/patern_header.jpg") 0 0 / contain;
+	width: 1240px;
+	margin: 0 auto 50px;
+	line-height: 1.4;
+}
+
+.title-header {
+	font-size: 40px;
+	color: rgba(78, 5, 78, 0.644);
+	text-align: center;
+}
+
+.list-header {
+	font-size: 25px;
+	font-style: oblique;
+	color: rgba(54, 31, 2, 0.541);
+	text-align: center;
+	text-decoration: underline;
+}
+
+/* ================task1======================== */
+
+.clothing-conteiner {
+	width: 1240px;
+	margin: 0 auto 50px;
+	padding: 15px;
+}
+
+.clothing-title {
+	color: #3C4242;
+	font-family: "Core Sans C", sans-serif;
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 1.20;
+	letter-spacing: 0.56px;
+	min-height: 28px;
+	background: no-repeat url("../img/rectangle.png") 0 0 / 6px 28px;
+	padding-left: 21px;
+	margin-bottom: 30px;
+}
+
+h3.clothing-subtitle {
+	padding-left: 21px;
+	color: #807D7E;
+	font-family: "Core Sans C", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.67;
+	letter-spacing: 0.4px;
+	margin-bottom: 25px;
+}
+
+.clothing-contain p {
+	color: #807D7E;
+	font-family: "Causten", sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.67;
+	letter-spacing: 0.4px;
+	margin-bottom: 20px;
+	padding-left: 21px;
+}
+
+.clothing-subtitle span {
+	font-weight: 700;
+}
+
+/* ================task2======================== */
+.we-made-conteiner {
+	width: 1240px;
+	margin: 0 auto 100px;
+	font-size: 0px;
+}
+
+.text-we-made {
+	width: 614px;
+	height: 640px;
+	display: inline-block;
+	color: #FFF;
+	padding: 183px 74px 174px;
+	background: url("../img/sheets.png") no-repeat 0 0 / cover;
+}
+
+.text-box {
+	margin-bottom: 50px;
+
+}
+
+.title-we-made {
+	font-family: "Core Sans C", sans-serif;
+	font-size: 34px;
+	font-weight: 800;
+	line-height: 1.47;
+	letter-spacing: 0.208px;
+	margin-bottom: 30px;
+}
+
+.text-box p {
+	font-family: "Causten", sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	padding-right: 15px;
+}
+
+.shopping {
+	width: 168px;
+	min-height: 46px;
+	border-radius: 8px;
+	padding: 12px 44px;
+	background-color: #FFF;
+}
+
+.button {
+	color: #3C4242;
+	font-family: "Causten", sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.image-we-made {
+	width: 626px;
+	height: 640px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* ================task3======================== */
+.we-care-conteiner {
+	width: 673px;
+	margin: 0 auto 100px;
+}
+
+.welcome-whitecollar {
+	width: 200px;
+	font-size: 0;
+	display: inline-block;
+	margin-bottom: 16px;
+}
+
+.squre-we-care {
+	width: 12px;
+	height: 12px;
+	margin-right: 6px;
+	display: inline-block;
+	background-color: #40DDB6;
+}
+
+.text-squre {
+	color: #37393F;
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	display: inline-block;
+
+}
+
+.text-block-we-care p {
+	color: #7D7D7D;
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	line-height: 1.46;
+	margin-bottom: 15px;
+}
+
+.text-box-we-care {
+	margin-bottom: 20px;
+}
+
+.title-we-care {
+	width: 414px;
+	color: #37393F;
+	font-family: "Poppins", sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.21;
+	margin-bottom: 20px;
+}
+
+.list-we-care {
+	color: #37393F;
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	margin-bottom: 43px;
+}
+
+.item-we-care {
+	min-height: 27px;
+	margin-bottom: 23px;
+	padding-left: 35px;
+	background: url("../img/vector.svg") repeat-y 0 0 / 27px 27px;
+}
+
+.advantages-container {
+	width: 737px;
+	padding: 31px 32px;
+	display: inline-block;
+	font-size: 0;
+	margin-bottom: 37px;
+}
+
+.advantages-experiance {
+	width: 295px;
+	height: 140px;
+	padding-left: 58px;
+	background: url("../img/experience.svg") no-repeat;
+	display: inline-block;
+	margin-right: 21px;
+}
+
+.advantages-awards {
+	width: 296.5px;
+	height: 140px;
+	padding-left: 59px;
+	display: inline-block;
+	vertical-align: top;
+	background: url("../img/awards.svg") no-repeat;
+}
+
+.title-advantages {
+	color: #37393F;
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 8px;
+}
+
+.advantages-experiance,
+.advantages-awards p {
+	color: #7D7D7D;
+	font-family: "Inter", sans-serif;
+	line-height: 1.35;
+}
+
+.button-we-care {
+	width: 184px;
+	height: 65px;
+	background: #6B77E5;
+	padding: 21px 27px 22px;
+}
+
+.more-button {
+	color: #FFF;
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+
+/* ================task4======================== */
+.discover-conteiner {
+	width: 1220px;
+	margin: 0 auto 100px;
+	text-align: center;
+}
+
+.discover-block {
+	width: 852px;
+	margin: 0 auto 47px;
+}
+
+.discover-rectangle-box {
+	display: inline-block;
+	font-size: 0;
+	margin-bottom: 14px;
+}
+
+.rectangle-discover {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin-right: 6px;
+	background: #40DDB6;
+}
+
+.title-rectangle-discover {
+	display: inline-block;
+	color: #37393F;
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.discover-text-box h2 {
+	color: #37393F;
+	font-family: "Poppins", sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.21;
+	margin-bottom: 14px;
+}
+
+.discover-text-box p {
+	color: #7D7D7D;
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	line-height: 1.46;
+}
+
+.image-discover-contain {
+	width: 1220px;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.image-container {
+	margin-bottom: 58px;
+	display: inline-block;
+	font-size: 0;
+}
+
+.image-block1,
+.image-block2,
+.image-block4,
+.image-block5 {
+	margin-right: 34px;
+}
+
+.image-block1,
+.image-block2,
+.image-block3,
+.image-block4,
+.image-block5,
+.image-block6 {
+	width: 384px;
+	height: 582px;
+	display: inline-block;
+}
+
+.item-image-block1,
+.item-image-block2,
+.item-image-block3,
+.item-image-block4,
+.item-image-block5,
+.item-image-block6 {
+	width: 384px;
+	height: 501px;
+	margin-bottom: 24px;
+	display: inline-block;
+}
+
+.item-image-block1 {
+	background: url("../img/image1.png");
+}
+
+.item-image-block2 {
+	background: url("../img/image2.png");
+}
+
+.item-image-block3 {
+	background: url("../img/image3.png");
+}
+
+.item-image-block4 {
+	background: url("../img/image4.png");
+}
+
+.item-image-block5 {
+	background: url("../img/image5.png");
+}
+
+.item-image-block6 {
+	background: url("../img/image6.png");
+}
+
+.title-image-discover {
+	color: #37393F;
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.27;
+	text-align: left;
+	margin-bottom: 8px;
+}
+
+.date-item-image {
+	color: #7D7D7D;
+	font-family: "Inter", sans-serif;
+	font-size: 14px;
+	line-height: 1.46;
+	text-align: left;
+	background: url("../img/calendar.svg") no-repeat;
+	padding-left: 35px;
+}
+
+/* ================task5======================== */
+
+.practice {
+	width: 1300px;
+	margin: 0 auto 50px;
+}
+
+.title-practice {
+	font-family: "Causten", sans-serif;
+	font-style: oblique;
+	font-weight: 700;
+	color: #3C4242;
+	font-size: 36px;
+	margin-bottom: 50px;
+	text-align: center;
+	border: 3px dashed purple;
+	box-shadow: 5px 9px 15px #40DDB6;
+}
+
+.background-color {
+	background-color: rgba(42, 145, 10, 0.774);
+}
+
+.background-image {
+	background-image: url("../img/patern_header.jpg");
+}
+
+.background-repeat {
+	background: url("../img/calendar.svg") repeat-x,
+		url("../img/experience.svg") repeat-y,
+		url("../img/awards.svg") no-repeat right bottom,
+		linear-gradient(184deg, rgba(159, 50, 67, 1) 62%, rgba(155, 255, 0, 1) 100%);
+
+}
+
+.background-position {
+	background: url("../img/experience.svg") 0 0 no-repeat,
+		url("../img/experience.svg") 0 100% no-repeat,
+		url("../img/experience.svg") 100% 0 no-repeat,
+		url("../img/experience.svg") 100% 100% no-repeat,
+		url("../img/experience.svg") 25% 50% no-repeat,
+		url("../img/experience.svg") 75% 50% no-repeat;
+}
+
+.background-attachment-fixed {
+	width: 1200px;
+	height: auto;
+	font-size: 20px;
+	margin: 0 auto 50px;
+	background: url("../img/image2.png") 0 0 / contain no-repeat fixed;
+}
+
+.background-attachment-scroll {
+	width: 1200px;
+	height: 100%;
+	font-size: 25px;
+	margin: 0 auto 50px;
+	background: url("../img/image3.png") 0 0 / cover no-repeat scroll;
+}
+
+.background-attachment-scroll h2 {
+	color: #172ce7;
+	font-family: "Poppins", sans-serif;
+	font-size: 50px;
+	text-align: center;
+}
+
+.background-attachment-fixed h2 {
+	color: #172ce7;
+	font-family: "Poppins", sans-serif;
+	font-size: 50px;
+	text-align: center;
+}
+
+.multi-layered-background {
+	width: 1200px;
+	height: 400px;
+	text-align: center;
+	margin: 0 auto 50px;
+	padding: 150px;
+	font-family: "Poppins", sans-serif;
+	font-size: 48px;
+	text-transform: capitalize;
+	background: url("../img/people.png") no-repeat 0 0 / 100px 100px,
+		url("../img/image1.png") no-repeat 0 100% / 100px 100px,
+		url("../img/image2.png") no-repeat 100% 100% / 100px 100px,
+		url("../img/image3.png") no-repeat 100% 0 / 100px 100px,
+		linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(115, 191, 140, 1) 37%, rgba(137, 190, 125, 1) 47%, rgba(168, 189, 104, 1) 61%, rgba(214, 72, 127, 1) 82%, rgba(253, 187, 45, 1) 100%);
+}
+
+.background-color,
+.background-image,
+.background-repeat,
+.background-position,
+.background-size {
+	width: 800px;
+	height: 200px;
+	margin: 0 auto 50px;
+	text-align: center;
+	padding: 75px;
+	font-size: 40px;
+}
+
+.footer {
+	width: 1300px;
+	padding: 50px;
+	margin: 0 auto;
+	font-family: "Poppins", sans-serif;
+	font-style: oblique;
+	font-size: 35px;
+	text-align: center;
+	background: url("../img/patern_header.jpg") scroll;
+}
