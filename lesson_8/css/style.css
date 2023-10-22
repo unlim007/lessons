@@ -134,7 +134,7 @@ h3.clothing-subtitle {
 	height: 640px;
 	display: inline-block;
 	vertical-align: top;
-	background: url("../img/people.png") no-repeat;
+	background: url("../img/people.png") no-repeat 0 0 / 626px 640px
 }
 
 /* ================task3======================== */
