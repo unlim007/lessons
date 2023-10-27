@@ -55,15 +55,16 @@ header {
 	font-size: 18px;
 	line-height: 1.46;
 	color: #7D7D7D;
-}
-
-.text-project p {
 	margin-bottom: 25px;
 }
 
+.text-project p {
+	margin-bottom: 20px;
+}
+
 .list-project {
-	margin-bottom: 35px;
-	margin-left: 16px;
+	padding-bottom: 35px;
+	padding-left: 16px;
 	line-height: 1.46;
 	font-family: "Inter", serif;
 	font-weight: 500;
@@ -85,21 +86,22 @@ header {
 
 .title-block {
 	margin: 0 auto 70px;
-	font-size: 0;
 	text-align: center;
 	width: 296px;
 }
 
-.title-block * {
+.squere-block {
+	font-size: 0;
 	display: inline-block;
+	margin-bottom: 16px;
 }
 
 .title-block h5 {
 	color: #37393F;
+	display: inline-block;
 	font-size: 18px;
 	font-family: "Inter", serif;
 	font-weight: 500;
-	margin-bottom: 16px;
 }
 
 .title-block h2 {
@@ -113,6 +115,7 @@ header {
 .squere {
 	width: 12px;
 	height: 12px;
+	display: inline-block;
 	margin-right: 6px;
 	text-align: center;
 	background-color: #40DDB6;
