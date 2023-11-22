@@ -50,7 +50,11 @@ h2 {
 	margin: 0 auto;
 }
 
-.vector-logo img,
+.vector-logo img {
+	margin-right: 100px;
+}
+
 .vector-content img {
 	margin-right: 60px;
+	margin-bottom: 30px;
 }
